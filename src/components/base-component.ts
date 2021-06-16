@@ -1,4 +1,4 @@
-namespace App {
+
   //Componenet Base class
   export abstract class Component<
     T extends HTMLElement,
@@ -43,4 +43,4 @@ namespace App {
 
     abstract renderContent(): void;
   }
-}
+
